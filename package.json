@@ -1,0 +1,30 @@
+{
+  "name": "project-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "db:migrate": "turbo run db:migrate --filter=@project/api",
+    "db:seed": "turbo run db:seed --filter=@project/api",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.0.0",
+    "eslint": "^10.0.0",
+    "prettier": "^3.0.0",
+    "turbo": "^2.0.0",
+    "typescript-eslint": "^8.0.0",
+    "vite": "8.1.2",
+    "vitest": "4.1.9"
+  },
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=11.0.0"
+  }
+}

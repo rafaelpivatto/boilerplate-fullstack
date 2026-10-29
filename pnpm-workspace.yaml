@@ -1,0 +1,15 @@
+packages:
+  - apps/*
+  - packages/*
+
+allowBuilds:
+  '@prisma/engines': true
+  '@scarf/scarf': false
+  bcrypt: true
+  esbuild: true
+  prisma: true
+
+overrides:
+  vite: 8.1.2
+  tailwindcss: 4.3.2
+  '@tailwindcss/postcss': 4.3.2

@@ -1,0 +1,5 @@
+{
+  "extends": "@project/config-ts/nextjs.json",
+  "compilerOptions": { "allowJs": false, "incremental": true, "noEmit": true },
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts"]
+}

@@ -1,0 +1,5 @@
+{
+  "extends": "@project/config-ts/nestjs.json",
+  "compilerOptions": { "rootDir": ".", "outDir": "dist" },
+  "include": ["src", "prisma"]
+}

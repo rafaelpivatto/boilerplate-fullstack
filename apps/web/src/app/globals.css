@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #f6f5f1;
+  --surface: #fffefa;
+  --surface-raised: #ffffff;
+  --foreground: #252724;
+  --muted: #70746d;
+  --border: #dedfd8;
+  --primary: #315a67;
+  --primary-foreground: #f7fbfb;
+  --flow: #5c8c86;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, sans-serif;
+}
+.font-ledger {
+  font-family: Georgia, serif;
+}
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
